@@ -11,7 +11,7 @@ for. Lets assume you are in markdown mode and you want to know how you
 can create a table.
 
     Invoke: M-x howdoi
-	Minibuf: Search for: how do I create a table in markdown
+    Minibuf: Search for: how do I create a table in markdown
 
 After invoking the command stack overflow will be searched and the
 result will be shown in a new buffer, called *howdoi*. The major mode
@@ -31,14 +31,14 @@ In our example the result would be:
 # Prerequisites
 
 You will need the wonderful howdoi tool written by Benjamin
-Gleitzman. It is available on gleitz/howdoi.
+Gleitzman. It is available on https://github.com/gleitz/howdoi.
 
 # Usage
 
 As this is currently a very rough first setup, you would basically
 just load the file in your *init.el*:
 
-```elisp
+```lisp
 (load "~/where/you/cloned/it/howdoi-emacs/howdoi.el")
 ```
 When the code becomes more complete the setup will be more elegant.
